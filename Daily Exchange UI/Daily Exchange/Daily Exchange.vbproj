@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC6A0363-7662-41A4-98A0-50A15CF2F094}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Daily_Exchange.My.MyApplication</StartupObject>
+    <RootNamespace>Daily_Exchange</RootNamespace>
+    <AssemblyName>Daily Exchange</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Daily Exchange.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Daily Exchange.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewExchangeControl.Designer.vb">
+      <DependentUpon>AddNewExchangeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewExchangeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.vb">
+      <DependentUpon>frmStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdlDailyExchange.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="StartPageControl.Designer.vb">
+      <DependentUpon>StartPageControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartPageControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddNewExchangeControl.resx">
+      <DependentUpon>AddNewExchangeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <DependentUpon>frmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartPageControl.resx">
+      <DependentUpon>StartPageControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttachFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookNote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookNoteWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorScheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarkAsPaid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarkAsPaidWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewInvoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewInvoice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewInvoiceWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewNote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaperClip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaperClipWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableReportt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableSelectRow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableWhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unpaid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserWhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

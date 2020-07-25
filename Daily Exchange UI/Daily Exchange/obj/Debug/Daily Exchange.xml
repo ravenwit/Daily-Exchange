@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DailyExchange
+</name>
+</assembly>
+<members>
+<member name="P:Daily_Exchange.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.AttachFile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.BookNote">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.BookNoteWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Charts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.CheckMark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.ColorScheme">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.contact">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Delete1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.DeleteWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Details">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Invoice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.MarkAsPaid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.MarkAsPaidWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.NewInvoice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.NewInvoice1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.NewInvoiceWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.NewNote">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.PaperClip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.PaperClipWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Person">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Print1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.PrintWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Table">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Table1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.TableReportt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.TableSelectRow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.TableWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.TableWhite1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Unpaid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.User">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.User1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.User3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.UserWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.UserWhite1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Daily_Exchange.My.Resources.Resources.Web">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Daily_Exchange.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
